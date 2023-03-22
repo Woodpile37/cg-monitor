@@ -3,7 +3,7 @@
     "jsdom": "^13.0.0",
     "limited-request-queue": "^5.1.0",
     "node-fetch": "^2.6.1",
-    "nodemw": "^0.12.2",
+    "nodemw": "^0.19.0",
     "parse-link-header": "^1.0.1",
     "promisify": "0.0.3",
     "rss-parser": "^3.5.4"
