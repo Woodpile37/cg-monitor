@@ -6,6 +6,12 @@
     "nodemw": "^0.12.2",
     "parse-link-header": "^1.0.1",
     "promisify": "0.0.3",
-    "rss-parser": "^3.5.4"
-  }
+    "rss-parser": "^3.5.4",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
